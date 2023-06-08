@@ -1,0 +1,57 @@
+#background {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0; 
+    z-index: -1; 
+    object-fit: cover;
+}
+
+#war {
+    color: gold;
+    text-align: center;
+    margin-top: -5px;
+}
+
+#greeting {
+    color: black;
+    text-align: center;
+    z-index: 3;
+}
+
+#see {
+    position: fixed;
+    background-color: gold;
+    opacity: 50%;
+    height: 90%;
+    width: 400px;
+    left: 50%;
+    margin-left: -200px;
+    z-index: -1; 
+    border-radius: 10px;
+}
+
+#nosee {
+    position: fixed;
+    height: 85%;
+    width: 400px;
+    left: 50%;
+    margin-left: -200px;
+    z-index: -1; 
+    border-radius: 10px;
+    overflow: auto;
+    bottom: 5%;
+}
+
+#test {
+    position: fixed;
+    top: 95%;
+    left: 50%;
+    margin-left: -200px;
+}
+
+#dungeater {
+    position: fixed;
+    left: 25px;
+}
