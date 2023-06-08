@@ -9,10 +9,13 @@
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
 <body>
+   
     <h1 id="war">Elden Warriors </h1>
-    <video id="background" src="{% static '/videos/elden.mp4' %}" autoplay loop muted></video>
+    <video id="background" src="{% static '/videos/elden.mp4' %}"  autoplay loop muted></video>
 
-    <img src="{% static 'img/dungeater.jpg' %}" id="dungeater" height="50px" width="50px">
+    <audio id="acontrol" src="{% static 'audio/dungeater.mp3' %}"></audio>
+    <img src="{% static 'img/dungeater.jpg' %}" onclick="playaudio()" id="dungeater" height="50px" width="50px">
+    
 
     <div id="see">
         
@@ -29,8 +32,9 @@
         <input type="text" name="message">
         <input type="submit"> 
     </form>
-
     <script src="{% static 'scripts/scroll.js' %}"> 
     </script> 
+
+    
 </body>
 </html>
