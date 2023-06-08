@@ -54,4 +54,9 @@
 #dungeater {
     position: fixed;
     left: 25px;
+    cursor: progress;
+}
+
+#acontrol { 
+    display: none;
 }
